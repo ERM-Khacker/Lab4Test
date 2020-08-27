@@ -72,7 +72,7 @@ public class Lab4Test {
         System.out.println();
         // 2.3)
         // TODO find max value in array.
-        int maxValue = 7;
+        int maxValue = testArray[8];
         for (int i = 0; i < testArray.length; i++) {
             if(testArray[i] > maxValue){
                 maxValue = testArray[i];
