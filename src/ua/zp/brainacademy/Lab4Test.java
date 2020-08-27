@@ -110,9 +110,8 @@ public class Lab4Test {
             Arrays.fill(row, ++ratio);
         }
         //Calculate min and max numbers in row
-        int[] array = new int[3];
+        int[] array = new int[2];
         int count = 0;
-
         for(int i = 2; i <= 5; i += 2){
             int sum = 0;
             for(int j = 0; j < matrix[i].length; j += 3){
@@ -125,6 +124,7 @@ public class Lab4Test {
         }
         int min = array[0];
         int max = array[1];
+
 
         System.out.println("Min number is " + min);
         System.out.println("Max number is " + max);
