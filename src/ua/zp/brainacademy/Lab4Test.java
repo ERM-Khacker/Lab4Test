@@ -113,9 +113,9 @@ public class Lab4Test {
         int[] array = new int[3];
         int count = 0;
 
-        for(int i = 3; i <= 5; i++){
+        for(int i = 2; i <= 5; i += 2){
             int sum = 0;
-            for(int j = 0; j < matrix[i].length; j = j + 3){
+            for(int j = 0; j < matrix[i].length; j += 3){
                 System.out.print(matrix[i][j] + "\t");
                 sum += matrix[i][j];
             }
@@ -124,7 +124,7 @@ public class Lab4Test {
             count++;
         }
         int min = array[0];
-        int max = array[2];
+        int max = array[1];
 
         System.out.println("Min number is " + min);
         System.out.println("Max number is " + max);
